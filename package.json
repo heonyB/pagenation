@@ -1,0 +1,14 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "npm start --prefix client",
+    "server": "npm run watch --prefix server",
+    "start":"npm run client | npm run server "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
