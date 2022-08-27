@@ -39,7 +39,7 @@ const getAllJobs = async (req, res) => {
   if (search) {
     queryObject.position = { $regex: search, $options: 'i' };
   }
-
+//왜이래
   let result =  Job.find(queryObject);
 
   if (sort === 'latest') {
